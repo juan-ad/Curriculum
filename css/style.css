@@ -1,0 +1,187 @@
+body{
+  background-color: #084B83;
+}
+/* ENCABEZADO */
+header{
+  background-color: #ffe74c;
+  height: 140px;
+  width: 65%;
+  min-width: 750px;
+  margin: 20px auto 0px;
+  padding: 6px 30px 0px;
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+  gap: 20px;
+}
+.principal{
+  width: 100%;
+  text-align: right;
+  margin-top: 34px;
+}
+#nombre, #leyenda{
+  margin: 0px;
+}
+#nombre{
+  font-family: 'PT Serif', serif;
+  color: #2D3047;
+}
+#leyenda{
+  color: #f54611;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 17px;
+}
+#fotoPerfil{
+  border-radius: 50%;
+}
+/* BARRA DE NAVEGACIÓN */
+nav{
+  width: 65%;
+  min-width: 750px;
+  margin: 0px auto;
+  background-color: #12263A;
+  padding: 2px 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.boton{
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  padding: 12px 5px;
+  text-align: center;
+  font-family: 'Roboto Condensed', 'Geneva';
+}
+.boton:hover{
+  background-color: #4C6F86;
+}
+.activo{
+  background-color: #247ba0;
+}
+/* SECCIÓN DE INFOMRACIÓN */
+.seccion {
+  width: 65%;
+  min-width: 750px;
+  height: auto;
+  margin: 0px auto;
+  padding: 3px 30px;
+  background-color: white;
+}
+.tituloSeccion{
+  color: #fa430b;
+  /* background-color: #ece2cc; */
+  background-color: #ece2cc;
+  font-family: 'Merriweather', Arial;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+table{
+  width: 100%;
+  margin: 10px auto 15px;
+}
+/* Tipo de letra para el párrafo general de todas las secciones */
+.p-g{
+  font-family: 'PT Sans', 'Arial';
+}  
+/* Perfil Profesional */
+.titPerfil{
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px 0px 0px 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.p-pp{
+  margin: 5px 33px 0px 0px;
+  font-size: 17px;
+}
+.infoInfo{
+  display: inline-block;
+  margin: 0px 0px 8px 6px;
+  font-size: 16px;
+}
+.email{
+  color: #fa430b;
+  font-weight: bold;
+}
+.redesSociales{
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 3px;
+}
+/* Experiencia Laboral y Educación */
+.p-e{
+  margin: 5px 25px 0px 0px;
+  font-size: 17px;
+}
+.titE{
+  font-family: 'Montserrat', Arial;
+  margin: 5px 0px 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.subE{
+  margin: 2px 0px 0px;
+  font-size: 15px;
+  font-family: 'Source Serif Pro', serif;
+}
+.mright{
+  margin-right: 50px;
+}
+.altoTd{
+  height: 60px;
+}
+/* Habilidades Técnicas */
+.titHtec{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.mtop{
+  margin-top: 30px;
+}
+.mleft{
+  margin-left: 5px;
+}
+.estrellas{
+  margin: 20px 0px 0px 5px;
+  color: #084B83;
+  font-size: 28px;
+}
+/* Representa una medida dentro de un rango conocido */
+meter{
+  margin: 22px 0px 10px;
+  width: 90%;
+  font-size: 28px;
+}
+/* Cambiar el color de fondo de la etiqueta meter */
+#meter1::-webkit-meter-optimum-value{
+  background-color: #084B83;
+}
+#meter2::-webkit-meter-optimum-value{
+  background-color: #ffe74c;
+}
+/* Portafolio */
+.p-margin{
+  margin-right: 40px;
+}
+.titP{
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px 0px 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.subP{
+  font-family: 'Roboto', sans-serif;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.imgTop{
+  margin-top: 30px;
+}
+.imgRight{
+  margin-right: 10px;
+}
