@@ -1,0 +1,169 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: #0d0d0d;
+  }
+  
+  .container__progressbars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 270px;
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  .progressbar {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: 1em;
+    transform: rotate(-90deg);
+  }
+  
+  .progressbar__svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .progressbar__svg-circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke: white;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+  }
+  
+  .shadow-html {
+    filter: drop-shadow(0 0 5px #ff6633);
+  }
+  .shadow-css {
+    filter: drop-shadow(0 0 5px #33ff55);
+  }
+  .shadow-java {
+    filter: drop-shadow(0 0 5px #ff33ff);
+  }
+  .shadow-js {
+    filter: drop-shadow(0 0 5px #ffff33);
+  }
+  .shadow-python {
+    filter: drop-shadow(0 0 5px #3377ff);
+  }
+  .shadow-sql {
+    filter: drop-shadow(0 0 5px #ff3333);
+  }
+  
+  
+  .circle-html {
+    -webkit-animation: anim_circle-html 1s ease-in-out forwards;
+            animation: anim_circle-html 1s ease-in-out forwards;
+  }
+  .circle-css {
+    -webkit-animation: anim_circle-css 1s ease-in-out forwards;
+            animation: anim_circle-css 1s ease-in-out forwards;
+  }
+  .circle-java {
+    -webkit-animation: anim_circle-java 1s ease-in-out forwards;
+            animation: anim_circle-java 1s ease-in-out forwards;
+  }
+  .circle-js {
+    -webkit-animation: anim_circle-js 1s ease-in-out forwards;
+            animation: anim_circle-js 1s ease-in-out forwards;
+  }
+  .circle-python {
+    -webkit-animation: anim_circle-python 1s ease-in-out forwards;
+            animation: anim_circle-python 1s ease-in-out forwards;
+  }
+
+  .circle-sql {
+    -webkit-animation: anim_circle-sql 1s ease-in-out forwards;
+            animation: anim_circle-sql 1s ease-in-out forwards;
+  }
+ 
+  
+  .progressbar__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0.25em 0.5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.25em;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  @-webkit-keyframes anim_circle-html {
+    to {
+      stroke-dashoffset: 350;
+    }
+  }
+  
+  @keyframes anim_circle-html {
+    to {
+      stroke-dashoffset: 350;
+    }
+  }
+  @-webkit-keyframes anim_circle-css {
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
+  @keyframes anim_circle-css {
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
+  @-webkit-keyframes anim_circle-java {
+    to {
+      stroke-dashoffset: 132;
+    }
+  }
+  @keyframes anim_circle-java {
+    to {
+      stroke-dashoffset: 132;
+    }
+  }
+  @-webkit-keyframes anim_circle-js {
+    to {
+      stroke-dashoffset: 450;
+    }
+  }
+  @keyframes anim_circle-js {
+    to {
+      stroke-dashoffset: 400;
+    }
+  }
+  @-webkit-keyframes anim_circle-python {
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+  @keyframes anim_circle-python {
+    to {
+      stroke-dashoffset: 100;
+    }
+  }
+  @-webkit-keyframes anim_circle-sql {
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
+  @keyframes anim_circle-sql {
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
